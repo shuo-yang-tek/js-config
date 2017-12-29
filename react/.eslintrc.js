@@ -38,7 +38,7 @@ module.exports = {
 			"never"
 		],
 		"comma-dangle": [
-			0,
+			1,
 			"always-multiline"
 		],
 		"no-console": 0,
@@ -53,5 +53,6 @@ module.exports = {
 		],
 		"no-unused-vars": 1,
 		"no-constant-condition": 0,
+		"react/prop-types": 0
 	}
 };
