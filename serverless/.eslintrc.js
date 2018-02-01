@@ -49,7 +49,7 @@ module.exports = {
 		"require-path-exists",
 	],
 	"parserOptions": {
-		"ecmaVersion": 2017,
+		"ecmaVersion": 6,
 		"sourceType": "module",
 		"ecmaFeatures": {
 			"impliedStrict": true,

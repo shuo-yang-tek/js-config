@@ -4,7 +4,11 @@ module.exports = {
 		"commonjs": true,
 		"es6": true
 	},
-	"extends": "plugin:react/recommended",
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:require-path-exists/recommended",
+	],
 	"parserOptions": {
 		"ecmaFeatures": {
 			"experimentalObjectRestSpread": true,
@@ -14,7 +18,8 @@ module.exports = {
 		"sourceType": "module"
 	},
 	"plugins": [
-		"react"
+		"react",
+		"require-path-exists",
 	],
 	"rules": {
 		"strict": [
