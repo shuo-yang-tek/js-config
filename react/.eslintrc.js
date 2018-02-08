@@ -4,6 +4,9 @@ module.exports = {
 		"commonjs": true,
 		"es6": true
 	},
+	"globals": {
+		"process": true,
+	},
 	"extends": [
 		"eslint:recommended",
 		"plugin:react/recommended",
